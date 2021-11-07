@@ -1,0 +1,29 @@
+.nav {
+  grid-area: n;
+  background: #acd2b8;
+  padding: 20px;
+  border-radius: 0 0 0 10px;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: gold;
+}
+
+.navbarText {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.friendsContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: -10px;
+}
